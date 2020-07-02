@@ -1,0 +1,201 @@
+body{
+    background: radial-gradient(#705EB4,#B4815E);
+    font-family: 'Quicksand', sans-serif;
+}
+#myphoto:hover{
+    width: 280px;
+    height: 360px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "contact-title contact-title contact-title contact-title" "contact-form contact-form social-links social-links" "contact-form contact-form social-links social-links";
+  }
+  
+  .contact-title { grid-area: contact-title; }
+  
+  .contact-form { grid-area: contact-form; }
+  
+  .social-links { grid-area: social-links; }
+
+
+  @media screen and (min-width: 600px) {
+    nav {
+      font-size: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav{
+      font-size: 30px;
+    }
+  }
+
+
+
+
+
+  nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+
+  }
+
+
+
+  .element {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "top top top top" "tab tab image image" "tab tab image image";
+  }
+  
+  .top { grid-area: top; 
+    text-align: center;
+}
+  
+  .tab { grid-area: tab; }
+  
+  .image { grid-area: image; }
+
+
+  .home {
+    background:radial-gradient(rgb(0, 140, 255),aqua) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "home-title home-title home-title home-title" "text left left left" "text left left left";
+  }
+  
+  .home-title { grid-area: home-title; }
+  
+  .text { grid-area: text; }
+  
+  .left { grid-area: left; }
+
+  .home-title{
+      text-align: center;
+      font-family: 'Lobster', cursive;
+      font-size: 60px;
+      color: teal;
+      animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: solid-left;
+}
+@keyframes solid-left{
+    from{margin-left: -600px;}
+    to{margin-left: 700px;}
+}
+
+  .left{
+      margin-left: 200px;
+  }
+
+  a:hover{
+      color: aqua;
+  }
+ a{
+     text-decoration: none;
+ }
+ a:active{
+     color: tomato;
+ }
+
+
+
+
+
+.top{
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: teal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: solid-left;
+}
+@keyframes solid-left{
+    from{margin-left: -600px;}
+    to{margin-left: 700px;}
+}
+
+#work-title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: teal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: solid-left;
+}
+@keyframes solid-left{
+    from{margin-left: -600px;}
+    to{margin-left: 700px;}
+}
+.contact-title{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: teal;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: solid-left;
+}
+@keyframes solid-left{
+    from{margin-left: -600px;}
+    to{margin-left: 700px;}
+}
+.text{
+    font-size: 25px;
+    padding: 10px;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.work-text{
+     font-size: 20px;
+}
+.audio{
+    width: 500px;
+    height: 90px;
+
+}
+th{
+    padding: 18px;
+}
+.image{
+    margin-left: 200px;
+}
+.contact-form{
+    font-size: 50px;
+}
+button{
+    font-size: 30px;
+}
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.social{
+    font-size: 20px;
+    text-align: center;
+}
+.social-title{
+    font-size: 60px;
+}
+.socialinsta{
+    text-align: center;
+}
+.socialemail{
+    text-align: center;
+}
+#Work{
+    background: radial-gradient(rgb(0, 140, 255),aqua);
+}
